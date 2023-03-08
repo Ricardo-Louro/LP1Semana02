@@ -20,15 +20,12 @@ namespace PerguntaValores
             //Receive the value, convert it to float and store it
             float r = Convert.ToSingle(Console.ReadLine());
 
-            //Store the value of pi in a float
-            float pi = 3.1415926f;
-
             //Print blank line so the results don't appear all together
             Console.WriteLine();
             //Calculate and print the cylinder's volume
-            Console.WriteLine($"Volume: {pi * (r*r) * a}");
+            Console.WriteLine($"Volume: {Math.PI * Math.Pow(r,2) * a}");
             //Calculate and print and cylinder's surface area
-            Console.WriteLine($"Surfaces Area: {2 * pi * r * (r + a)}");
+            Console.WriteLine($"Surfaces Area: {2 * Math.PI * r * (r + a)}");
         }
     }
 }
