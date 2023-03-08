@@ -28,7 +28,7 @@ namespace PerguntaValores
             //Calculate and print the cylinder's volume
             Console.WriteLine($"Volume: {pi * (r*r) * a}");
             //Calculate and print and cylinder's surface area
-            Console.WriteLine($"Surface Area: {2* pi * r * (r + a)}");
+            Console.WriteLine($"Surfaces Area: {2 * pi * r * (r + a)}");
         }
     }
 }
