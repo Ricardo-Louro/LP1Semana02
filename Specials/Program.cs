@@ -118,16 +118,26 @@ namespace Specials
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a float
-            Console.WriteLine($"Float Max Value: {float.MaxValue}");
-            Console.WriteLine($"Float Min Value: {float.MinValue}");
+            //Define min and max value of a float
+            float float_min = float.MinValue;
+            float float_max = float.MaxValue;
+
+            //Print min, max and overflow value of a float
+            Console.WriteLine($"Float Max Value: {float_max}");
+            Console.WriteLine($"Float Overflow: {(float)(float_max + (float) 1)}");
+            Console.WriteLine($"Float Min Value: {float_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a double
-            Console.WriteLine($"Double Max Value: {double.MaxValue}");
-            Console.WriteLine($"Double Min Value: {double.MinValue}");
+            //Define min and max value of a float
+            double double_min = double.MinValue;
+            double double_max = double.MaxValue;
+
+            //Print min, max and overflow value of a double
+            Console.WriteLine($"Double Max Value: {double_max}");
+            Console.WriteLine($"Double Overflow: {(double)(double_max + (double) 1)}");
+            Console.WriteLine($"Double Min Value: {double_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
