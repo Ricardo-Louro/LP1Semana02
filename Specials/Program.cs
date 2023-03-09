@@ -90,6 +90,34 @@ namespace Specials
             //Print min and max value of a decimal
             Console.WriteLine($"Decimal Max Value: {decimal.MaxValue}");
             Console.WriteLine($"Decimal Min Value: {decimal.MinValue}");
+
+            //Empty print to prevent a block of text
+            Console.WriteLine();
+
+            ///Print with a separation line to better distinguish
+            /// both parts of the exercise
+            Console.WriteLine("-----------------------------------");
+
+            //Empty print to prevent a block of text
+            Console.WriteLine();
+            
+            //Print positive and negative infinity through a double
+            Console.WriteLine($"Double Positive Infinity: {double.PositiveInfinity}");
+            Console.WriteLine($"Double Negative Infinity: {double.NegativeInfinity}");
+            
+            //Empty print to prevent a block of text
+            Console.WriteLine();
+
+            //Print positive and negative infinity through a float
+            Console.WriteLine($"Float Positive Infinity: {float.PositiveInfinity}");
+            Console.WriteLine($"Float Negative Infinity: {float.NegativeInfinity}");
+
+            //Empty print to prevent a block of text
+            Console.WriteLine();
+
+            //Print positive and negative infinity through a double
+            Console.WriteLine($"Double NaN: {double.NaN}");
+            Console.WriteLine($"Float NaN: {float.NaN}");
         }
     }
 }
