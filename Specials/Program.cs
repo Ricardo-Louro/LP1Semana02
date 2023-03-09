@@ -10,65 +10,110 @@ namespace Specials
     {
         static void Main(string[] args)
         {
-            //Print min and max value of a byte
-            Console.WriteLine($"Byte Max Value: {byte.MaxValue}");
-            Console.WriteLine($"Byte Min Value: {byte.MinValue}");
+            //Define min and max value of a byte
+            byte byte_min = byte.MinValue;
+            byte byte_max = byte.MaxValue;
+
+            //Print min, max, overflow and underflow value of a byte
+            Console.WriteLine($"Byte Max Value: {byte_max}");
+            Console.WriteLine($"Byte Overflow: {(byte)(byte_max + (byte) 1)}");
+            Console.WriteLine($"Byte Min Value: {byte_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a sbyte
-            Console.WriteLine($"Sbyte Max Value: {sbyte.MaxValue}");
-            Console.WriteLine($"Sbyte Min Value: {sbyte.MinValue}");
+            //Define min and max value of an sbyte
+            sbyte sbyte_min = sbyte.MinValue;
+            sbyte sbyte_max = sbyte.MaxValue;
+
+            //Print min, max, overflow and underflow value of an sbyte
+            Console.WriteLine($"Sbyte Max Value: {sbyte_max}");
+            Console.WriteLine($"Sbyte Overflow: {(sbyte)(sbyte_max + (sbyte) 1)}");
+            Console.WriteLine($"Sbyte Min Value: {sbyte_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a short
-            Console.WriteLine($"Short Max Value: {short.MaxValue}");
-            Console.WriteLine($"Short Min Value: {short.MinValue}");
+            //Define min and max value of a short
+            short short_min = short.MinValue;
+            short short_max = short.MaxValue;
+
+            //Print min, max, overflow and underflow value of a short
+            Console.WriteLine($"Short Max Value: {short_max}");
+            Console.WriteLine($"Short Overflow: {(short)(short_max + (short) 1)}");
+            Console.WriteLine($"Short Min Value: {short_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a ushort
-            Console.WriteLine($"Ushort Max Value: {ushort.MaxValue}");
-            Console.WriteLine($"Ushort Min Value: {ushort.MinValue}");
+            //Define min and max value of a ushort
+            ushort ushort_min = ushort.MinValue;
+            ushort ushort_max = ushort.MaxValue;
+
+            //Print min, max, overflow and underflow value of a ushort
+            Console.WriteLine($"Ushort Max Value: {ushort_max}");
+            Console.WriteLine($"Ushort Overflow: {(ushort)(ushort_max + (ushort) 1)}");
+            Console.WriteLine($"Ushort Min Value: {ushort_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a int
-            Console.WriteLine($"Int Max Value: {int.MaxValue}");
-            Console.WriteLine($"Int Min Value: {int.MinValue}");
+            //Define min and max value of an int
+            int int_min = int.MinValue;
+            int int_max = int.MaxValue;
+
+            //Print min, max, overflow and underflow value of an int
+            Console.WriteLine($"Int Max Value: {int_max}");
+            Console.WriteLine($"Int Overflow: {(int)(int_max + (int) 1)}");
+            Console.WriteLine($"Int Min Value: {int_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a uint
-            Console.WriteLine($"Uint Max Value: {uint.MaxValue}");
-            Console.WriteLine($"Uint Min Value: {uint.MinValue}");
+            //Define min and max value of a uint
+            uint uint_min = uint.MinValue;
+            uint uint_max = uint.MaxValue;
+            
+            //Print min, max, overflow and underflow value of a uint
+            Console.WriteLine($"Uint Max Value: {uint_max}");
+            Console.WriteLine($"Uint Overflow: {(uint)(uint_max + (uint) 1)}");
+            Console.WriteLine($"Uint Min Value: {uint_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a long
-            Console.WriteLine($"Long Max Value: {long.MaxValue}");
-            Console.WriteLine($"Long Min Value: {long.MinValue}");
+            //Define min and max value of a long
+            long long_min = long.MinValue;
+            long long_max = long.MaxValue;
+            
+            //Print min, max, overflow and underflow value of a long
+            Console.WriteLine($"Long Max Value: {long_max}");
+            Console.WriteLine($"Long Overflow: {(long)(long_max + (long) 1)}");
+            Console.WriteLine($"Long Min Value: {long_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a ulong
-            Console.WriteLine($"Ulong Max Value: {ulong.MaxValue}");
-            Console.WriteLine($"Ulong Min Value: {ulong.MinValue}");
+            //Define min and max value of a ulong
+            ulong ulong_min = ulong.MinValue;
+            ulong ulong_max = ulong.MaxValue;
+
+            //Print min, max, overflow and underflow value of a ulong
+            Console.WriteLine($"Ulong Max Value: {ulong_max}");
+            Console.WriteLine($"Ulong Overflow: {(ulong)(ulong_max + (ulong) 1)}");
+            Console.WriteLine($"Ulong Min Value: {ulong_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
 
-            //Print min and max value of a char
-            Console.WriteLine($"Char Max Value: {char.MaxValue}");
-            Console.WriteLine($"Char Min Value: {char.MinValue}");
+            //Define min and max value of a char
+            char char_min = char.MinValue;
+            char char_max = char.MaxValue;
+
+            //Print min, max, overflow and underflow value of a char
+            Console.WriteLine($"Char Max Value: {char_max}");
+            Console.WriteLine($"Char Overflow: {(char)(char_max + (char) 1)}");
+            Console.WriteLine($"Char Min Value: {char_min}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
