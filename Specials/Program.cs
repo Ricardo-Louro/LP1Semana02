@@ -14,7 +14,7 @@ namespace Specials
             byte byte_min = byte.MinValue;
             byte byte_max = byte.MaxValue;
 
-            //Print min, max, overflow and underflow value of a byte
+            //Print min, max and overflow value of a byte
             Console.WriteLine($"Byte Max Value: {byte_max}");
             Console.WriteLine($"Byte Overflow: {(byte)(byte_max + (byte) 1)}");
             Console.WriteLine($"Byte Min Value: {byte_min}");
@@ -26,7 +26,7 @@ namespace Specials
             sbyte sbyte_min = sbyte.MinValue;
             sbyte sbyte_max = sbyte.MaxValue;
 
-            //Print min, max, overflow and underflow value of an sbyte
+            //Print min, max and overflow value of an sbyte
             Console.WriteLine($"Sbyte Max Value: {sbyte_max}");
             Console.WriteLine($"Sbyte Overflow: {(sbyte)(sbyte_max + (sbyte) 1)}");
             Console.WriteLine($"Sbyte Min Value: {sbyte_min}");
@@ -38,7 +38,7 @@ namespace Specials
             short short_min = short.MinValue;
             short short_max = short.MaxValue;
 
-            //Print min, max, overflow and underflow value of a short
+            //Print min, max and overflow value of a short
             Console.WriteLine($"Short Max Value: {short_max}");
             Console.WriteLine($"Short Overflow: {(short)(short_max + (short) 1)}");
             Console.WriteLine($"Short Min Value: {short_min}");
@@ -50,7 +50,7 @@ namespace Specials
             ushort ushort_min = ushort.MinValue;
             ushort ushort_max = ushort.MaxValue;
 
-            //Print min, max, overflow and underflow value of a ushort
+            //Print min, max and overflow value of a ushort
             Console.WriteLine($"Ushort Max Value: {ushort_max}");
             Console.WriteLine($"Ushort Overflow: {(ushort)(ushort_max + (ushort) 1)}");
             Console.WriteLine($"Ushort Min Value: {ushort_min}");
@@ -62,7 +62,7 @@ namespace Specials
             int int_min = int.MinValue;
             int int_max = int.MaxValue;
 
-            //Print min, max, overflow and underflow value of an int
+            //Print min, max and overflow value of an int
             Console.WriteLine($"Int Max Value: {int_max}");
             Console.WriteLine($"Int Overflow: {(int)(int_max + (int) 1)}");
             Console.WriteLine($"Int Min Value: {int_min}");
@@ -74,7 +74,7 @@ namespace Specials
             uint uint_min = uint.MinValue;
             uint uint_max = uint.MaxValue;
             
-            //Print min, max, overflow and underflow value of a uint
+            //Print min, max and overflow value of a uint
             Console.WriteLine($"Uint Max Value: {uint_max}");
             Console.WriteLine($"Uint Overflow: {(uint)(uint_max + (uint) 1)}");
             Console.WriteLine($"Uint Min Value: {uint_min}");
@@ -86,7 +86,7 @@ namespace Specials
             long long_min = long.MinValue;
             long long_max = long.MaxValue;
             
-            //Print min, max, overflow and underflow value of a long
+            //Print min, max and overflow value of a long
             Console.WriteLine($"Long Max Value: {long_max}");
             Console.WriteLine($"Long Overflow: {(long)(long_max + (long) 1)}");
             Console.WriteLine($"Long Min Value: {long_min}");
@@ -98,7 +98,7 @@ namespace Specials
             ulong ulong_min = ulong.MinValue;
             ulong ulong_max = ulong.MaxValue;
 
-            //Print min, max, overflow and underflow value of a ulong
+            //Print min, max and overflow value of a ulong
             Console.WriteLine($"Ulong Max Value: {ulong_max}");
             Console.WriteLine($"Ulong Overflow: {(ulong)(ulong_max + (ulong) 1)}");
             Console.WriteLine($"Ulong Min Value: {ulong_min}");
@@ -110,7 +110,7 @@ namespace Specials
             char char_min = char.MinValue;
             char char_max = char.MaxValue;
 
-            //Print min, max, overflow and underflow value of a char
+            //Print min, max and overflow value of a char
             Console.WriteLine($"Char Max Value: {char_max}");
             Console.WriteLine($"Char Overflow: {(char)(char_max + (char) 1)}");
             Console.WriteLine($"Char Min Value: {char_min}");
@@ -122,10 +122,11 @@ namespace Specials
             float float_min = float.MinValue;
             float float_max = float.MaxValue;
 
-            //Print min, max and overflow value of a float
+            //Print min, max, overflow and underflow value of a float
             Console.WriteLine($"Float Max Value: {float_max}");
             Console.WriteLine($"Float Overflow: {(float)(float_max + (float) 1)}");
             Console.WriteLine($"Float Min Value: {float_min}");
+            Console.WriteLine($"Float Underflow: {(float)(float_min - (float) 1)}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
@@ -134,10 +135,11 @@ namespace Specials
             double double_min = double.MinValue;
             double double_max = double.MaxValue;
 
-            //Print min, max and overflow value of a double
+            //Print min, max, overflow and underflow value of a double
             Console.WriteLine($"Double Max Value: {double_max}");
             Console.WriteLine($"Double Overflow: {(double)(double_max + (double) 1)}");
             Console.WriteLine($"Double Min Value: {double_min}");
+            Console.WriteLine($"Double Underflow: {(double)(double_min - (double) 1)}");
 
             //Empty print to prevent a block of text
             Console.WriteLine();
