@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossSquare", "CrossSquare\CrossSquare.csproj", "{F4E522B8-3B12-4075-A413-D00DEC80EE6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{9351586C-8EC1-407C-A7D4-326EF54630FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTGrandfather", "ChatGPTGrandfather\ChatGPTGrandfather.csproj", "{3EAE8267-7FB2-4A7E-827F-D1792F3A83F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "IfExample\IfExample.csproj", "{AC320F14-CFAA-4F63-BF67-568A947D29C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +60,17 @@ Global
 		{F4E522B8-3B12-4075-A413-D00DEC80EE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4E522B8-3B12-4075-A413-D00DEC80EE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4E522B8-3B12-4075-A413-D00DEC80EE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9351586C-8EC1-407C-A7D4-326EF54630FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9351586C-8EC1-407C-A7D4-326EF54630FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9351586C-8EC1-407C-A7D4-326EF54630FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9351586C-8EC1-407C-A7D4-326EF54630FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAE8267-7FB2-4A7E-827F-D1792F3A83F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAE8267-7FB2-4A7E-827F-D1792F3A83F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAE8267-7FB2-4A7E-827F-D1792F3A83F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAE8267-7FB2-4A7E-827F-D1792F3A83F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC320F14-CFAA-4F63-BF67-568A947D29C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC320F14-CFAA-4F63-BF67-568A947D29C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC320F14-CFAA-4F63-BF67-568A947D29C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC320F14-CFAA-4F63-BF67-568A947D29C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
